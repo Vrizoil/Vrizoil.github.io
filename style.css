@@ -14,3 +14,10 @@ h2 {
   -webkit-text-stroke: 1px black;
   paint-order: stroke fill;
 }
+
+.wife-photo {
+  display: block;
+  width: min(500px, 100%);
+  height: auto;
+  margin: 24px auto;
+}
