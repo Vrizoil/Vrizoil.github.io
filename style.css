@@ -15,9 +15,17 @@ h2 {
   paint-order: stroke fill;
 }
 
+.wife-photo-frame {
+  box-sizing: border-box;
+  width: min(532px, calc(100% - 24px));
+  margin: 24px auto;
+  padding: 16px;
+  background-image: url("images/fence.xbm.gif");
+  background-repeat: repeat;
+}
+
 .wife-photo {
   display: block;
-  width: min(500px, 100%);
+  width: 100%;
   height: auto;
-  margin: 24px auto;
 }
